@@ -5,9 +5,9 @@
     
 }
 
-/* body {
+body {
     font-family: Helvetica;
-} */
+}
 
 nav.navbar {
     background-color: #F1F3FF;
@@ -128,12 +128,12 @@ nav.navbar {
 
 /* custom yellow transition */
 
-.why-us .card-body.yellow:hover * {
+.why-us .card-body.card-yellow:hover * {
     z-index: 9;
     color: white;
 }
 
-.why-us .card-body.yellow::before {
+.why-us .card-body.card-yellow::before {
     position: absolute;
     content: '';
     left: 0;
@@ -145,7 +145,7 @@ nav.navbar {
     clip-path: circle(7% at 32.3px 35.3px);
 }
 
-.why-us .card-body:hover.yellow::before {
+.why-us .card-body:hover.card-yellow::before {
     clip-path: circle(100%);
     border-radius: 5px;
 }
@@ -154,12 +154,12 @@ nav.navbar {
 
 /* custom red transition */
 
-.why-us .card-body.red:hover * {
+.why-us .card-body.card-red:hover * {
     z-index: 9;
     color: white;
 }
 
-.why-us .card-body.red::before {
+.why-us .card-body.card-red::before {
     position: absolute;
     content: '';
     left: 0;
@@ -172,21 +172,21 @@ nav.navbar {
     clip-path: circle(7% at 32.3px 34.3px);
 }
 
-.why-us .card-body:hover.red::before {
+.why-us .card-body:hover.card-red::before {
     clip-path: circle(100%);
     border-radius: 5px;
 }
 
 /* end */
 
-/* custom red transition */
+/* custom blue transition */
 
-.why-us .card-body.blue:hover * {
+.why-us .card-body.card-blue:hover * {
     z-index: 9;
     color: white;
 }
 
-.why-us .card-body.blue::before {
+.why-us .card-body.card-blue::before {
     position: absolute;
     content: '';
     left: 0;
@@ -199,21 +199,21 @@ nav.navbar {
     clip-path: circle(7% at 32.3px 34.3px);
 }
 
-.why-us .card-body:hover.blue::before {
+.why-us .card-body:hover.card-blue::before {
     clip-path: circle(100%);
     border-radius: 5px;
 }
 
 /* end */
 
-/* custom red transition */
+/* custom green transition */
 
-.why-us .card-body.green:hover * {
+.why-us .card-body.card-green:hover * {
     z-index: 9;
     color: white;
 }
 
-.why-us .card-body.green::before {
+.why-us .card-body.card-green::before {
     position: absolute;
     content: '';
     left: 0;
@@ -226,7 +226,7 @@ nav.navbar {
     clip-path: circle(7% at 32.3px 35.3px);
 }
 
-.why-us .card-body:hover.green::before {
+.why-us .card-body:hover.card-green::before {
     clip-path: circle(100%);
     border-radius: 5px;
 }
